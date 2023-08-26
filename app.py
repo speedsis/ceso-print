@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 @app.route('/imprimir', methods=['POST'])
-def imprimir():
+def index():
     try:
         data = request.get_json()
        
